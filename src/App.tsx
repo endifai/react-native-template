@@ -1,5 +1,9 @@
-import { Text } from 'react-native'
+import { ScrollView, Text } from 'react-native'
 
 export const App = () => {
-  return <Text>Header</Text>
+  return (
+    <ScrollView contentInsetAdjustmentBehavior="automatic">
+      <Text>Header</Text>
+    </ScrollView>
+  )
 }
