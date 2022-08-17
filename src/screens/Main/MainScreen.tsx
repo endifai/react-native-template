@@ -1,7 +1,14 @@
-import { Text, View } from 'react-native'
+import { View } from 'react-native'
+import styled from 'styled-components/native'
 
 export const MainScreen = () => (
   <View>
-    <Text>Main Screen</Text>
+    <Title>Main Screen</Title>
   </View>
 )
+
+const Title = styled.Text`
+  text-align: center;
+  color: ${({ theme }) => theme.colors.red[600]};
+  font-size: 22px;
+`
