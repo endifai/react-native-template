@@ -1,9 +1,13 @@
-import { ScrollView, Text } from 'react-native'
+import { NavigationContainer } from '@react-navigation/native'
 
-export const App = () => {
-  return (
-    <ScrollView contentInsetAdjustmentBehavior="automatic">
-      <Text>Header</Text>
-    </ScrollView>
-  )
-}
+import { AuthProvider } from 'src/context/auth'
+
+import { RootNavigator } from './navigation'
+
+export const App = () => (
+  <NavigationContainer>
+    <AuthProvider>
+      <RootNavigator />
+    </AuthProvider>
+  </NavigationContainer>
+)

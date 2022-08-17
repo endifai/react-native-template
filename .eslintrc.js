@@ -106,5 +106,8 @@ module.exports = {
     // promise
     'promise/prefer-await-to-then': 'warn',
     'promise/prefer-await-to-callbacks': 'warn',
+
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': ['error'],
   },
 }
