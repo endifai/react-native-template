@@ -1,5 +1,5 @@
-import {Text} from 'react-native';
+import { Text } from 'react-native'
 
 export const App = () => {
-  return <Text>header</Text>;
-};
+  return <Text>Header</Text>
+}
