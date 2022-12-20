@@ -2,7 +2,7 @@ module.exports = {
   presets: [
     [
       'module:metro-react-native-babel-preset',
-      {useTransformReactJSXExperimental: true},
+      { useTransformReactJSXExperimental: true },
     ],
   ],
   plugins: [
@@ -22,4 +22,4 @@ module.exports = {
       },
     ],
   ],
-};
+}
