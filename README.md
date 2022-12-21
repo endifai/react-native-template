@@ -3,6 +3,7 @@
 ## Technologies
 
 - TypeScript
+- Effector
 - Eslint
 - React-Navigation
 - Styled-Components
