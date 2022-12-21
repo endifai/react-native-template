@@ -3073,6 +3073,18 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
+effector-react@^22.4.0:
+  version "22.4.0"
+  resolved "https://registry.yarnpkg.com/effector-react/-/effector-react-22.4.0.tgz#ac36cf3db3d4464744cca246baacfb1bfece25f7"
+  integrity sha512-flyx22WCc8a525KW9cR/T0eAZCR3Ej75phafuSmlpsYwlRlImAmOXN2AsmxknCS2zlBbwAGmISbpu+YVeIdz+g==
+  dependencies:
+    use-sync-external-store "^1.0.0"
+
+effector@^22.4.1:
+  version "22.4.1"
+  resolved "https://registry.yarnpkg.com/effector/-/effector-22.4.1.tgz#ba3c01622e42cf2784c83d2a4e7321e7caeef601"
+  integrity sha512-/GeCeEnSMaLvuskQMBI6bzd5V3GvRRv8mI/Wed9JEenstYGDhJQTIVkO5K+Fdt3KC3d5T8wdWxMzGVkKdaDAEw==
+
 electron-to-chromium@^1.4.251:
   version "1.4.284"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz#61046d1e4cab3a25238f6bf7413795270f125592"
@@ -3223,6 +3235,13 @@ eslint-module-utils@^2.7.3:
   integrity sha512-j4GT+rqzCoRKHwURX7pddtIPGySnX9Si/cgMI5ztrcqOPtk5dDEeZ34CQVPphnqkJytlc97Vuk05Um2mJ3gEQA==
   dependencies:
     debug "^3.2.7"
+
+eslint-plugin-effector@^0.10.3:
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-effector/-/eslint-plugin-effector-0.10.3.tgz#d2bf7ba1ae8501b6853817506d5cede75522d6e0"
+  integrity sha512-ELDEwYSERD4eHRWEthlQilNfIrYZwQ2poeGBfX05YVy1vIc9ZhIDa8jP7v9djnvRSSJ4gFu4qQQOoau7O33kaw==
+  dependencies:
+    prettier "^2.3.2"
 
 eslint-plugin-eslint-comments@^3.2.0:
   version "3.2.0"
@@ -6290,7 +6309,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.8.1:
+prettier@^2.3.2, prettier@^2.8.1:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.1.tgz#4e1fd11c34e2421bc1da9aea9bd8127cd0a35efc"
   integrity sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==
