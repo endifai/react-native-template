@@ -3,7 +3,7 @@
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
     "typeRoots": [
-      "./index.d.ts",
+      "./src/types/*.d.ts",
       "./node_modules/@types"
     ],
     "paths": {

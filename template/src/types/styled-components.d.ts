@@ -1,4 +1,4 @@
-import { AppTheme } from './src/theme'
+import { AppTheme } from '../theme'
 
 type CustomTheme = typeof AppTheme
 

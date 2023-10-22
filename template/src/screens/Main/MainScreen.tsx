@@ -15,8 +15,8 @@ export const MainScreen = () => {
 
       <Counter>{t('counter', { value: counter })}</Counter>
 
-      <Button title="Increase" onPress={() => increaseCounter()} />
-      <Button title="Decrease" onPress={() => decreaseCounter()} />
+      <Button title={t('incrementButton')} onPress={() => increaseCounter()} />
+      <Button title={t('decrementButton')} onPress={() => decreaseCounter()} />
     </View>
   )
 }

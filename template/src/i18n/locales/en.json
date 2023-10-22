@@ -1,6 +1,8 @@
 {
   "main": {
     "title": "Main screen",
-    "counter": "Counter: {{value}}"
+    "counter": "Counter: {{value}}",
+    "incrementButton": "Increase",
+    "decrementButton": "Decrease"
   }
 }
