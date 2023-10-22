@@ -22,7 +22,7 @@ module.exports = {
   ],
 
   extends: [
-    '@react-native-community',
+    '@react-native',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
     'plugin:promise/recommended',
